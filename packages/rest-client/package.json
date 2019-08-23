@@ -1,0 +1,29 @@
+{
+  "name": "rest-client",
+  "version": "0.0.0",
+  "description": "rest client for https://restcountries.eu/#rest-countries",
+  "keywords": [
+    "rest",
+    "countries"
+  ],
+  "author": "= <=>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "start": "node ./lib/index.js",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "lucene": "^2.0.4",
+    "node-fetch": "^2.6.0"
+  }
+}
